@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+header nav {
+    display: flex;
+}
+
+img {
+    object-fit: contain;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Catalogo {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    display: inline-block;
+}
+
+#revolucaodosbichos img {
+    width: 240px;
+    height: 240px;
+}
+
+#revolucaodosbichos p {
+    margin: 5px;
+    text-align: center;
+}
