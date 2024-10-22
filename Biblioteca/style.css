@@ -1,41 +1,74 @@
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&display=swap');
+
+/* Configurações GLOBAIS */
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Serif Oriya', 'arial', 'comic sans';
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: gray;
     color: white;
+    height: 100vh;
+    width: 100vw;
 }
 
-header nav {
+.logocontainer {
+    width: 20%;
+}
+
+.logocontainer img {
+    border-radius: 50%;
+}
+
+.bibliotecacontainer {
+    width: 50%;
+}
+
+.cabecalho {
+    background-color: crimson;
     display: flex;
+    justify-content: space-between;
+    max-height: 10%;
 }
 
-img {
-    object-fit: contain;
+.centralizaV {
+    display: flex;
+    align-items: center;
 }
 
-h1 {
-    padding-left: 30px;
+.centralizaH {
+    display: flex;
+    justify-content: center;
 }
 
-ul {
-    list-style-type: none;
+.logo {
+   height: 100%;
+   width: 25%;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.login-signin {
+    display: flex;
+    gap: 5px;
+    width: 30%;
+}
+
+.main {
+    max-height: 80%;
 }
 
 .Catalogo {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
-    display: inline-block;
+    display: flex;
 }
 
-#revolucaodosbichos img {
-    width: 240px;
-    height: 240px;
+.livroscontainer {
+    width: 50%;
 }
 
-#revolucaodosbichos p {
-    margin: 5px;
-    text-align: center;
+.livros {
+    width: 25%;
+    height: 20%;
 }

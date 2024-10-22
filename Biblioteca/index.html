@@ -7,28 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="login.html"><h3>Login</h3></a>
-                </li>
-            </ul>
-        </nav>
+    <header class="cabecalho">
+        <div class="logocontainer">
+            <img class="logo" src="https://yt3.googleusercontent.com/DFH7pDVE7mdbAlVVFUpc31pjr1KvSLWAMdHzLLkk5gyblEU1UrIiGDpjxI3-5R-xF4ymDbdYVw=s900-c-k-c0x00ffffff-no-rj" alt="">
+        </div>
+        <div class="centralizaV bibliotecacontainer centralizaH">
+            <h1 class="centralizaV centralizaH">Biblioteca</h1>
+        </div>
+        <div class="login-signin centralizaH">
+            <div class="centralizaV centralizaH">
+                <p class="centralizaV centralizaH">login</p>
+            </div>
+            <div class="centralizaV centralizaH">
+                <p class="centralizaV centralizaH">sign in</p>
+            </div>
+        </div>
     </header>
-    <main>
-        <h1>Livros</h1>
+    <main class="main">
+        <div class="titulo">
+            <h1>Livros</h1>
+        </div>
         <section class="Catalogo">
             <ul>
-                <div id="revolucaodosbichos">
+                <div class="revolucaodosbichos">
                     <li>
                         <a href=".\catalogo\revoluçãodosbichos.html" target="_blank">
-                            <img src=".\imagens\a-revolucao-dos-bichos.jpg" alt="">
+                            <div class="livroscontainer">
+                                <img class="livros" src=".\imagens\a-revolucao-dos-bichos.jpg" alt="A Revolução dos Bichos">
+                            </div>
                             <p>A Revolução dos Bichos</p>
                         </a>
                         <p>Autor: George Orwell</p>
                     </li>
-                </div>  
+                </div> 
+                <div class="mobydick">
+                    <li>
+                        <a href=".\catalogo\mobydick.html" target="_blank">
+                            <div class="livroscontainer">
+                                <img class="livros" src=".\imagens\i.jpg" alt="Moby Dick">
+                            </div>
+                            <p>Moby Dick</p>
+                        </a>
+                        <p>Autor: Libretto</p>
+                    </li>
+                </div>
             </ul>
         </section>
     </main>
