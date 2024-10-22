@@ -16,6 +16,16 @@ body {
     width: 100vw;
 }
 
+.centralizaV {
+    display: flex;
+    align-items: center;
+}
+
+.centralizaH {
+    display: flex;
+    justify-content: center;
+}
+
 .logocontainer {
     width: 20%;
 }
@@ -35,16 +45,6 @@ body {
     max-height: 10%;
 }
 
-.centralizaV {
-    display: flex;
-    align-items: center;
-}
-
-.centralizaH {
-    display: flex;
-    justify-content: center;
-}
-
 .logo {
    height: 100%;
    width: 25%;
@@ -56,12 +56,10 @@ body {
     width: 30%;
 }
 
-.main {
-    max-height: 80%;
-}
-
 .Catalogo {
+    max-height: 80%;
     display: flex;
+    background-color: black;
 }
 
 .titulo {
@@ -70,11 +68,12 @@ body {
 
 .livroscontainer {
     width: 50%;
+    height: 50%;
 }
 
 .livros {
     width: 25%;
-    height: 20%;
+    height: 100%;
 }
 
 a {
@@ -84,6 +83,11 @@ a {
 
 a:hover {
     color: crimson;
+}
+
+.revolucaodosbichos {
+    width: 50%;
+    height: 50%;
 }
 
 .rbcontainer {
