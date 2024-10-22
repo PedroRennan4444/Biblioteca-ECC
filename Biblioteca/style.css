@@ -64,6 +64,10 @@ body {
     display: flex;
 }
 
+.titulo {
+    text-indent: 20;
+}
+
 .livroscontainer {
     width: 50%;
 }
@@ -71,4 +75,18 @@ body {
 .livros {
     width: 25%;
     height: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: crimson;
+}
+
+.rbcontainer {
+    width: 40%;
+    height: 40%;
 }
